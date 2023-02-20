@@ -1,28 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(43, 126, 126);
-    padding: 10px;
+
+body {
+    background-color: rgb(97, 186, 186);
+    /*padding: 10px;*/
 }
 
-nav{
+nav {
     height: 55px;
     width: 100%;
+    margin: 10px;
+    padding: 10px 20px;
     display: flex;
     justify-content: end;
     align-items: center;
 }
-nav button{
+
+nav button {
     margin: 8px 0;
     padding: 10px;
-    background-color: rgb(57, 58, 78);
+    background-color: rgb(58, 60, 94);
+    font-size: 17px;
+    font-weight: 600;
     color: white;
     border-radius: 10px;
     cursor: pointer;
 }
+
 /*#addBtn{
     margin: 8px 0;
     padding: 10px;
@@ -34,15 +41,16 @@ nav button{
     cursor: pointer;
 }*/
 
-.main{
+.main {
+    min-height: 75vh;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content:center;
+    justify-content: center;
     gap: 10px;
     flex-direction: left;
 }
-.note{
+
+.note {
     width: 30vw;
     min-width: 350px;
     height: 40vh;
@@ -51,7 +59,8 @@ nav button{
     /*border: 5px solid red;*/
     border-radius: 25px;
 }
-.tool{
+
+.tool {
     background-color: black;
     width: 100%;
     height: 20%;
@@ -60,15 +69,15 @@ nav button{
     display: flex;
     align-items: center;
     justify-content: end;
-    gap: 10px; 
-    border-radius: 15px 15px 0 0 ;
+    gap: 10px;
+    border-radius: 15px 15px 0 0;
 }
 
-.tool i{
+.tool i {
     cursor: pointer;
 }
 
-.note textarea{
+.note textarea {
     border: none;
     width: 100%;
     height: 80%;
@@ -78,7 +87,18 @@ nav button{
     border-radius: 0 0 15px 15px;
 }
 
-.note textarea:focus{
+.note textarea:focus {
     border: 0;
     outline: 0;
+}
+
+footer {
+    margin-top: 15px;
+    width: 100%;
+    height: 80px;
+    background: rgb(89, 97, 98);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
