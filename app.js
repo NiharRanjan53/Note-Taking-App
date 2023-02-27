@@ -2,7 +2,7 @@ const addBtn = document.querySelector("#addBtn")
 const main = document.querySelector(".main")
 const saveNotes = () => {
     const notes =  document.querySelectorAll(".note textarea");
-    console.log(notes);
+    //console.log(notes);
     const data = [];
     notes.forEach(
         (note) =>{
